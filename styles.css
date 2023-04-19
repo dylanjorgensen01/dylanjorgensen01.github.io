@@ -1,0 +1,82 @@
+body{
+	font-family:Arial;
+	Background:white;
+}
+header{
+	padding:10px;
+	color:rgb(198,233,223);
+	background:rgb(48,92,73);
+	text-align:center;
+}
+nav{
+	padding:10px;
+	color:rgb(198,233,223);
+	background:rgb(48,92,73);
+	text-align:center;
+}
+nav ul{
+	list-style-type:none;
+	padding-left:0;
+}
+nav a{
+	text-decoration:none;
+	background:rgb(75,92,85);
+	color:rgb(198,233,223);
+	padding:5px;
+	display:block;
+	border:1px solid black
+}	
+nav a:hover{
+	background:rgb(180,219,203);
+	color:rgb(75,92,85);
+}
+main{
+	padding:10px;
+	color:rgb(75,92,85);
+	background:rgb(180,219,203);
+}
+footer{
+	padding:10px;
+	color:rgb(198,233,223);
+	background:rgb(48,92,73);
+}
+#about h2, #future h2, #learn h2{
+	text-align:center;
+}
+/*Hide*/
+.hidden{
+	display:none;
+}
+/*Slide Show*/
+#slide-show{
+	text-align:center;
+}
+#slide-show img{
+	width:80%;
+}
+/*Contact*/
+.pers-info{
+	width:80%;
+}
+#pers-mess{
+	width:80%;
+	height:15em;
+}
+#send{
+	width:80%
+}
+/*Larger Resolution*/
+@media(min-width:720px){
+	#content{
+		width:80%;
+		margin:auto;
+	}
+	nav li{
+		display:inline;
+	}
+	nav a{
+		display:inline;
+		padding:5px;
+		border-radius:2px;
+	}
+}

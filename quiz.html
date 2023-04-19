@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+		<title>CSCE Project</title>
+		<!-- Dylan Jorgensen CSCE 102 Section 015 2/28/2023 -->
+	</head>
+	<body>
+		<div id="content">
+			<header>
+				<h1>Dylan Jorgensen</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+			<main>
+				<section id="quiz">
+					<h3>Website Development Quiz:</h3>
+					<p>
+						<label for="q-one"> The difference between class and id is:</label>
+						<select id="q-one">
+							<option>id is used for one element</option>
+							<option>id is used for multiple elements</option>
+							<option>there is no difference</option>
+							<option>id can only be used in script text</option>
+						</select>
+					</p>
+					<p>
+						<label for="q-two">the script tag goes:</label>
+						<select id="q-two">
+							<option>at the beginning of the nav section</option>
+							<option>at the end of the head section</option>
+							<option>at the end of the body section</option>
+							<option>directly below the doctype</option>
+						</select>
+					</p>
+					<p>
+						<label for="q-three">Which attribute is not used to code for a table :</label>
+						<select id="q-three">
+							<option>tr</option>
+							<option>td</option>
+							<option>th</option>
+							<option>p</option>
+						</select>
+					</p>
+					<p>
+						<label for="q-four">What is the entity number to display a dollar sign:</label>
+						<select id="q-four">
+							<option>36</option>
+							<option>59</option>
+							<option>41</option>
+							<option>95</option>
+						</select>
+					</p>
+					<button onclick="showScore()" id="score-btn">Submit</button>
+				</section>
+				<section id="result-text"></section>
+			</main>
+			<footer>
+			<p>&copy; My Copywrite</p>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
